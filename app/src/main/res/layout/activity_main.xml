@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.radheshyam.mybrowser.MainActivity">
+
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:hint="@string/enter_url_here"
+        android:id="@+id/urleditText"
+        android:textColor="#FFFFFF"
+        android:layout_marginEnd="11dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/imageView"
+        android:imeOptions="actionSearch"
+        android:inputType="text" />
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/filterblue"
+        android:id="@+id/blueView"
+        android:visibility="invisible"
+        />
+
+
+
+    <ImageButton
+
+        android:id="@+id/gobutton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_launcher"
+        android:onClick="OnClicksendUrl"
+        android:layout_alignTop="@+id/urleditText"
+        android:layout_toEndOf="@+id/urleditText"
+        android:layout_marginStart="9dp"
+        android:background="@color/yourcolor"/>
+
+ <de.hdodenhof.circleimageview.CircleImageView
+
+               android:id="@+id/blkht_main"
+               android:layout_width="175dp"
+               android:layout_height="175dp"
+               android:src="@drawable/blkhat"
+               app:civ_border_width="2dp"
+               app:civ_border_color="#FF000000"
+         android:layout_centerVertical="true"
+         android:layout_centerHorizontal="true"
+         />
+
+</android.widget.RelativeLayout>

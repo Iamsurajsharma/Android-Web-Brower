@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">RiVus</string>
+    <string name="enter_url_here">Search or type Url</string>
+    <string name="go">GO</string>
+    <string name="about_us">About us</string>
+    <string name="translator">Translator</string>
+    <string name="rivus_browsing_site">RiVus Browsing Site</string>
+    <string name="back">Backward</string>
+    <string name="refresh">Refresh</string>
+    <string name="forward">Forward</string>
+    <string name="enter_words_above_for_translation">Enter Words above for translation</string>
+    <string name="translate">Translate</string>
+    <string name="speak">Speak</string>
+    <string name="read">Read</string>
+    <string name="speech_input_phrase">Say the Phrase</string>
+    <string name="stt_not_supported_message">Your Device Doesn \' t Support Speech to Text</string>
+    <string name="iam_boss">Iam Boss</string>
+    <string name="this_app_is_developed_by_us_android_developers_and_graphic_designer">This app is developed by us. #Android_developers and #Graphic_Designers</string>
+    <string name="programming_is_thinking_not_typing">Programming is Thinking not Typing...!!</string>
+    <string name="yash_uppal">Yash Uppal</string>
+    <string name="suraj_sharma">Suraj Sharma</string>
+    <string name="exit">Exit</string>
+    <string name="searchButton">searchButton</string>
+    <string name="editBox">editBox</string>
+    <string name="choose_one">Blue light Filter</string>
+    <string name="blue_light_1">Start Blue Light</string>
+    <string name="settings_menu_item_android_id"><![CDATA[Settings /> </menu> <item android:id=]]></string>
+    <string name="blue_light_2">Stop Blue Light</string>
+    <string name="blue_light_settings">System Settings</string>
+    <string name="back1">Back</string>
+    <string name="type_here_in_english">Type here in English</string>
+    <string name="clear_all_history">Clear All History</string>
+    <string name="history">History</string>
+    <string-array name="language_array">
+        <item>Dutch</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Portuguese</item>
+        <item>Russian</item>
+        <item>Spanish</item>
+    </string-array>
+
+</resources>

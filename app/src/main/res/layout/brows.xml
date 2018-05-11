@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yourcolor"
+    tools:context="com.example.radheshyam.mybrowser.MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextBrows"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/icongoogle"
+        android:background="@color/yourcolor"
+        android:hint="@string/enter_url_here"
+        android:textColor="#FFFFFF"
+        android:imeOptions="actionSearch"
+        android:inputType="text"/>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/refresh"
+        android:layout_alignParentBottom="true">
+
+
+    </WebView>
+
+    <ImageView
+        android:id="@+id/icongoogle"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/back"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:src="@drawable/googleic"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iconUrl"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/back"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:src="@drawable/gbicon"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/brobutton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/editTextBrows"
+        android:layout_marginStart="9dp"
+        android:layout_toEndOf="@+id/editTextBrows"
+        android:background="@color/yourcolor"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageButton
+        android:id="@+id/forw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/brobutton"
+        android:layout_marginEnd="23dp"
+        android:background="@color/yourcolor"
+        android:onClick="Onclickforwd"
+
+        android:src="@drawable/arrow_right_selected" />
+
+    <ImageButton
+
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/webView"
+        android:background="@color/yourcolor"
+        android:onClick="OnlclickBack"
+
+        android:src="@drawable/arrow_left_selected"
+        android:layout_alignStart="@+id/icongoogle" />
+
+    <ImageButton
+
+
+        android:id="@+id/refresh"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/forw"
+        android:layout_below="@+id/editTextBrows"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="23dp"
+        android:background="@color/yourcolor"
+        android:onClick="OnclickRefresh"
+        android:src="@drawable/ic_refresh" />
+
+</android.widget.RelativeLayout>
+

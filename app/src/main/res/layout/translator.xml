@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.radheshyam.mybrowser.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_words_above_for_translation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="29dp"
+        android:id="@+id/TranslationTextView"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorAccent"
+        android:hint="@string/type_here_in_english"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/translate"
+        android:layout_marginTop="16dp"
+        android:onClick="onTranslateClick"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/myblkcolor"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/speak"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:onClick="ExceptSpeechInput"
+        android:textColor="@color/myblkcolor"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/read"
+        android:layout_marginTop="13dp"
+        android:onClick="readTheText"
+        android:layout_below="@+id/lang_spinner"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/myblkcolor"
+        />
+
+    <Spinner
+        android:id="@+id/lang_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:entries="@array/language_array"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:background="@color/yourcolor"
+        android:popupBackground="@color/yourcolor"
+        />
+
+
+
+
+</android.widget.RelativeLayout>

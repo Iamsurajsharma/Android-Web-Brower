@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#666666</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="yourcolor">#666666</color>
+    <color name="blucolor">#3B5998</color>
+    <color name="redcolor">#CE0400</color>
+    <color name="myblkcolor"> #000000</color>
+    <color name="bottombarcolor">#32a49796</color>
+    <color name="filterblue">#97f6f6bf</color>
+    </resources>

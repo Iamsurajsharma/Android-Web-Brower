@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="historyButton" type="id">historyButton</item>
+    <item name="cacheButton" type="id">cacheButton</item>
+</resources>
