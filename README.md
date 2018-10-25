@@ -1,10 +1,10 @@
-#**Android Web Browser**
+# **Android Web Browser**
 
 Web Browser build in Android Studio.
 
 It is in Developing phase.
 
-#**Screenshots**
+# **Screenshots**
 
 |HomeScreen|Youtube|Google|History|
 |----------|:-----:|:----:|:-----:|
