@@ -2,7 +2,11 @@
 
 Web Browser build in Android Studio.
 
-It is in Developing phase.
+The app is in Developing phase.
+
+# **Features**
+ - Browse anonymously
+ - Delete history with one button
 
 # **Screenshots**
 
