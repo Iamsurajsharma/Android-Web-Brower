@@ -1,8 +1,8 @@
 # **Android Web Browser**
 
-Web Browser build in Android Studio.
+Web Browser built in Android Studio.
 
-The app is in Developing phase.
+The app is still in development phase.
 
 # **Features**
  - Browse anonymously
